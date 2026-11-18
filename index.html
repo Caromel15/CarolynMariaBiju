@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carolyn Maria Biju | Computer Science Portfolio</title>
+    <title>Carolyn Maria Biju | IT Support &amp; Data Analyst Portfolio</title>
     <meta name="description"
-        content="Portfolio of Carolyn Maria Biju, a Computer Science student specializing in Software Engineering, AI, and Web Development.">
+        content="Portfolio of Carolyn Maria Biju, a Computer Science and Engineering Technology graduate with 3 years of Tier 2/3 IT support experience, building projects in SQL, Python, data analysis, and AI.">
+    <meta property="og:title" content="Carolyn Maria Biju | IT Support &amp; Data Analyst">
+    <meta property="og:description" content="CS &amp; Engineering Technology graduate. SQL, Python, Windows/Active Directory, data analysis, and AI projects.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +22,15 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .availability{display:inline-flex;align-items:center;gap:.5rem;margin:.25rem 0 1.25rem;padding:.35rem .9rem;border-radius:999px;border:1px solid var(--accent-primary);color:var(--accent-primary);font-size:.9rem}
+        .availability .pulse{width:8px;height:8px;border-radius:50%;background:var(--accent-primary);box-shadow:0 0 8px var(--accent-primary)}
+        .badge-progress{display:inline-block;margin-left:.5rem;padding:.1rem .55rem;border-radius:999px;font-size:.72rem;font-weight:600;vertical-align:middle;background:rgba(168,85,247,.15);color:var(--accent-secondary);border:1px solid rgba(168,85,247,.4)}
+        .code-soon{font-size:.8rem;color:var(--text-secondary)}
+        .learning-grid{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;margin-top:1.5rem}
+        .learning-grid span{padding:.5rem 1rem;border-radius:999px;border:1px dashed var(--accent-secondary);color:var(--text-primary);font-size:.95rem}
+        .learning-note{text-align:center;color:var(--text-secondary);max-width:640px;margin:0 auto}
+    </style>
 </head>
 
 <body>
@@ -46,12 +57,13 @@
             <div class="hero-content">
                 <span class="greeting">Hello, I'm</span>
                 <h1 class="name">Carolyn Maria Biju</h1>
-                <h2 class="title">Computer Science & <span class="highlight">Engineering Technology</span></h2>
+                <h2 class="title">IT Support &amp; <span class="highlight">Data Analyst</span></h2>
                 <p class="bio">
-                    A passionate developer based in Toledo, Ohio, transforming complex problems into elegant software
-                    solutions.
-                    Specializing in AI, Web Development, and Data Analysis.
+                    Computer Science &amp; Engineering Technology graduate from The University of Toledo with 3 years of
+                    Tier 2/3 IT support experience. I troubleshoot systems, find root causes, and turn data into clear
+                    answers using SQL, Python, and modern IT tools.
                 </p>
+                <div class="availability"><span class="pulse"></span> Open to relocation &middot; Available immediately</div>
                 <div class="hero-btns">
                     <a href="#projects" class="btn-primary">View My Work</a>
                     <a href="#contact" class="btn-secondary">Get In Touch</a>
@@ -61,8 +73,7 @@
                     <a href="https://www.linkedin.com/in/carolynmariabiju" target="_blank" aria-label="LinkedIn"><i
                             class="fab fa-linkedin-in"></i></a>
                     <a href="#contact" aria-label="Scroll to Contact Section"><i class="fas fa-envelope"></i></a>
-                    <!-- Added GitHub placeholder if available later -->
-                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/caromel15" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
                 </div>
             </div>
             <div class="hero-visual">
@@ -86,27 +97,31 @@
                     <p>
                         I am a recent <strong>Bachelor of Science in Computer Science and Engineering
                             Technology </strong>graduate from <strong>The University of Toledo.</strong>
-                        With a GPA of <strong>3.2/4.0</strong> and multiple acheivements on the Dean's List, I am dedicated to academic
-                        excellence and practical application.
+                        I made the Dean's List multiple times and enjoy pairing strong fundamentals with hands-on problem solving.
                     </p>
                     <p>
-                        My journey involves hands-on experience as a <strong>IT Analyst</strong>, where I resolve complex technical issues and optimize systems.
-                        
-                        I bridge the gap between <strong>high-performance</strong> engineering and strategic <strong>leadership</strong>, 
-                        whether I am architecting real-time <strong>Agentic AI</strong> engines or spearheading professional development and cross-functional collaboration within my organizations.
+                        For three years I worked as an <strong>IT Analyst</strong> on the university's Tier 2/3 help desk, serving as an
+                        escalation point for hardware, software, account, and network issues, administering
+                        <strong>Active Directory</strong>, and deploying software and updates with <strong>SCCM</strong>.
+                        Today I work as an Assembly Technician at <strong>Dana Incorporated</strong>, troubleshooting networked
+                        production equipment in automotive manufacturing.
+                    </p>
+                    <p>
+                        Outside of work I build data and AI projects, from SQL dashboards and Python data pipelines to a
+                        real-time <strong>generative AI</strong> engine, and I'm actively growing my analytics skills.
                     </p>
                     <div class="stats-grid">
                         <div class="stat-item">
-                            <span class="stat-number">3+</span>
-                            <span class="stat-label">Years Coding</span>
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Years IT Support</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-number">6+</span>
                             <span class="stat-label">Major Projects</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-number">200+</span>
-                            <span class="stat-label">Tickets Resolved</span>
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Issues Resolved / Month</span>
                         </div>
                     </div>
                 </div>
@@ -118,22 +133,39 @@
         <div class="container">
             <h2 class="section-title">Experience</h2>
             <div class="timeline">
+                <!-- Job 0 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Feb 2026 – Present</div>
+                    <div class="timeline-content">
+                        <h3>Assembly Technician</h3>
+                        <h4>Dana Incorporated &middot; Toledo, OH</h4>
+                        <ul>
+                            <li>Troubleshoot networked production equipment (PLC-controlled stations, Allen-Bradley HMIs,
+                                Fanuc robots, barcode scanners) in a high-uptime automotive drivetrain manufacturing environment.</li>
+                            <li>Diagnose root causes of recurring equipment faults; findings repeatedly confirmed by engineering's
+                                final analysis.</li>
+                            <li>Follow strict SOPs and traceability standards at production pace.</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <!-- Job 1 -->
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">Jan 2023 – Present</div>
+                    <div class="timeline-date">Jan 2023 – Dec 2025</div>
                     <div class="timeline-content">
-                        <h3>IT Analyst</h3>
+                        <h3>IT Analyst (Tier 2/3 Help Desk)</h3>
                         <h4>The University of Toledo</h4>
                         <ul>
-                            <li>Supported web and data systems used by multiple university departments, ensuring uptime
-                                and accessibility.</li>
-                            <li>Diagnosed and resolved 200+ monthly support tickets involving software configuration and
-                                integration.</li>
-                            <li>Applied Python scripting and SQL queries to analyze data trends and automate
-                                documentation tasks.</li>
-                            <li>Collaborated with IT engineers to deploy software updates and maintain system
-                                efficiency.</li>
+                            <li>Resolved 100+ escalated hardware, software, account, and network issues per month for
+                                faculty, staff, and students using structured root-cause analysis.</li>
+                            <li>Served as the Tier 2/3 escalation point and partnered with system administrators on
+                                recurring problems.</li>
+                            <li>Administered Active Directory and Group Policy: accounts, permissions, and MFA.</li>
+                            <li>Imaged machines and deployed applications and updates with Microsoft SCCM; supported
+                                VMware virtual desktops.</li>
+                            <li>Wrote knowledge base articles and trained newer technicians.</li>
                         </ul>
                     </div>
                 </div>
@@ -146,12 +178,7 @@
                         <h3>Operations Associate</h3>
                         <h4>The University of Toledo</h4>
                         <ul>
-                            <li>Demonstrated strong team collaboration and communication skills, contributing to
-                                efficient daily operations.</li>
-                            <li>Leveraged Microsoft Office Suite to document workflows, maintain schedules, and optimize
-                                task tracking.</li>
-                            <li>Supported process organization and data-driven decision-making for departmental
-                                operations.</li>
+                            <li>Documented workflows and tracked schedules and tasks with Microsoft Office.</li>
                         </ul>
                     </div>
                 </div>
@@ -164,12 +191,7 @@
                         <h3>Client Outreach Representative</h3>
                         <h4>The University of Toledo</h4>
                         <ul>
-                            <li>Engaged with 120–150 individuals daily, showcasing excellent interpersonal and
-                                communication skills.</li>
-                            <li>Analyzed donor data and contributed to reports summarizing campaign outcomes and
-                                performance metrics.</li>
-                            <li>Built strong client trust, securing over $6,000 in pledges while representing the
-                                university professionally.</li>
+                            <li>Spoke with 120–150 people daily and secured over $6,000 in pledges.</li>
                         </ul>
                     </div>
                 </div>
@@ -187,11 +209,11 @@
                         <div class="project-header">
                             <i class="fas fa-palette project-icon"></i>
                             <div class="project-links">
-                                <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                <span class="code-soon"><i class="fab fa-github"></i> Code coming soon</span>
                             </div>
                         </div>
                         <h3>Generative Agentic AI Art Engine</h3>
-                        <p>Architected a real-time generative art engine using meatball algorithms, Gaussian smoothing, and HSV color mapping. Engineered high-performance execution on Raspberry Pi through vectorization, multithreading, and algorithm tuning, alongside autonomous agent simulations for evolving patterns.</p>
+                        <p>Architected a real-time generative art engine using metaball algorithms, Gaussian smoothing, and HSV color mapping. Engineered high-performance execution on Raspberry Pi through vectorization, multithreading, and algorithm tuning, alongside autonomous agent simulations for evolving patterns.</p>
                         <div class="project-tags">
                             <span>Python</span>
                             <span>PyTorch</span>
@@ -202,13 +224,64 @@
                     </div>
                 </article>
 
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-chart-line project-icon"></i>
+                            <div class="project-links">
+                                <span class="code-soon"><i class="fab fa-github"></i> Code coming soon</span>
+                            </div>
+                        </div>
+                        <h3>SQL Data Dashboard</h3>
+                        <p>
+                            Built a grade management system that automated data storage, retrieval, reporting, and
+                            visualization with SQL and Jupyter, replacing manual tracking and analysis work.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Jupyter</span>
+                            <span>Data Viz</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- New: Data Pipeline -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-stream project-icon"></i>
+                            <div class="project-links"><span class="code-soon"><i class="fab fa-github"></i> Code coming soon</span></div>
+                        </div>
+                        <h3>Python API Data Pipeline <span class="badge-progress">In Progress</span></h3>
+                        <p>Pulls education data from a public API, validates and de-duplicates records, loads them into a
+                            SQL database, and logs data-quality checks on every run.</p>
+                        <div class="project-tags"><span>Python</span><span>REST API</span><span>SQL</span><span>Git</span></div>
+                    </div>
+                </article>
+
+                <!-- New: Used Car -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-car-side project-icon"></i>
+                            <div class="project-links"><span class="code-soon"><i class="fab fa-github"></i> Code coming soon</span></div>
+                        </div>
+                        <h3>Used Car Price Analysis <span class="badge-progress">In Progress</span></h3>
+                        <p>Explores public used-car listings in BigQuery with SQL, models how mileage, age, and make drive
+                            price with regression in Python, and visualizes findings in a Tableau dashboard.</p>
+                        <div class="project-tags"><span>SQL</span><span>BigQuery</span><span>Python</span><span>Regression</span><span>Tableau</span></div>
+                    </div>
+                </article>
+
                 <!-- Project 2 -->
                 <article class="project-card">
                     <div class="project-content">
                         <div class="project-header">
                             <i class="fas fa-robot project-icon"></i>
                                 <div class="project-links">
-                                    <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                    <span class="code-soon"><i class="fab fa-github"></i> Code coming soon</span>
                                 </div>
                         </div>
                     <h3>AI Chatbot Development</h3>
@@ -228,7 +301,7 @@
                         <div class="project-header">
                             <i class="fas fa-dumbbell project-icon"></i>
                             <div class="project-links">
-                                <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                <span class="code-soon"><i class="fab fa-github"></i> Code coming soon</span>
                             </div>
                             </div>
                             <h3>Fitness Goal Tracker</h3>
@@ -248,7 +321,7 @@
                         <div class="project-header">
                             <i class="fas fa-shopping-bag project-icon"></i>
                             <div class="project-links">
-                                <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                <span class="code-soon"><i class="fab fa-github"></i> Code coming soon</span>
                             </div>
                         </div>
                         <h3>E-Commerce Clothing Website</h3>
@@ -262,36 +335,13 @@
                     </div>
                 </article>
 
-                <!-- Project 4 -->
-                <article class="project-card">
-                    <div class="project-content">
-                        <div class="project-header">
-                            <i class="fas fa-chart-line project-icon"></i>
-                            <div class="project-links">
-                                <a href="#" title="View Code"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                        <h3>SQL Data Dashboard</h3>
-                        <p>
-                            Created an interactive data visualization tool using SQL and Jupyter for real-time academic
-                            insights and trend analysis.
-                        </p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>SQL</span>
-                            <span>Jupyter</span>
-                            <span>Data Viz</span>
-                        </div>
-                    </div>
-                </article>
-
                 <!-- Project 5 -->
                 <article class="project-card">
                     <div class="project-content">
                         <div class="project-header">
                             <i class="fas fa-car project-icon"></i>
                             <div class="project-links">
-                                <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                <span class="code-soon"><i class="fab fa-github"></i> Code coming soon</span>
                             </div>
                         </div>
                         <h3>Smart Parking Distance Alert</h3>
@@ -316,31 +366,50 @@
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-wrapper">
                 <div class="skill-category">
-                    <h3>Languages</h3>
+                    <h3>IT Support &amp; Systems</h3>
                     <div class="skill-list">
-                        <div class="skill-item"><i class="fab fa-python"></i> Python</div>
-                        <div class="skill-item"><i class="fab fa-java"></i> Java</div>
-                        <div class="skill-item">C++</div>
-                        <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
-                        <div class="skill-item"><i class="fas fa-database"></i> SQL</div>
-                        <div class="skill-item"><i class="fab fa-html5"></i> HTML/CSS</div>
-                        <div class="skill-item">C</div>
-                        <div class="skill-item">Assembly</div>
+                        <div class="skill-item"><i class="fab fa-windows"></i> Windows 10/11</div>
+                        <div class="skill-item"><i class="fab fa-apple"></i> macOS</div>
+                        <div class="skill-item"><i class="fas fa-users-cog"></i> Active Directory</div>
+                        <div class="skill-item">Group Policy</div>
+                        <div class="skill-item">SCCM (MECM)</div>
+                        <div class="skill-item">VMware</div>
+                        <div class="skill-item">Microsoft 365</div>
+                        <div class="skill-item"><i class="fas fa-network-wired"></i> TCP/IP, DNS, DHCP, VLANs</div>
+                        <div class="skill-item">Ticketing &amp; Root-Cause Analysis</div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Tools & Frameworks</h3>
+                    <h3>Data &amp; Analytics</h3>
                     <div class="skill-list">
-                        <div class="skill-item"><i class="fas fa-code"></i> VS Code</div>
+                        <div class="skill-item"><i class="fas fa-database"></i> SQL / MySQL</div>
+                        <div class="skill-item"><i class="fab fa-python"></i> Python (pandas)</div>
                         <div class="skill-item">Jupyter</div>
-                        <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
-                        <div class="skill-item"><i class="fas fa-chart-bar"></i> Power BI</div>
-                        <div class="skill-item"><i class="fab fa-figma"></i> Figma</div>
-                        <div class="skill-item">.NET</div>
-                        <div class="skill-item"><i class="fab fa-angular"></i> AngularJS</div>
+                        <div class="skill-item"><i class="fas fa-chart-bar"></i> Power BI (basic)</div>
+                        <div class="skill-item">Excel</div>
+                        <div class="skill-item">Statistics &amp; Experimental Design</div>
                     </div>
                 </div>
+
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><i class="fab fa-java"></i> Java</div>
+                        <div class="skill-item">C / C++ / C#</div>
+                        <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill-item"><i class="fab fa-html5"></i> HTML/CSS</div>
+                        <div class="skill-item">PHP</div>
+                        <div class="skill-item">PowerShell</div>
+                        <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="section-title" style="font-size:1.6rem;margin-top:4rem">Currently Learning</h3>
+            <p class="learning-note">Skills I'm actively building through hands-on projects.</p>
+            <div class="learning-grid">
+                <span>Tableau</span><span>A/B Testing</span><span>BigQuery</span><span>Microsoft Intune</span><span>Azure / Entra ID</span><span>ITIL</span>
             </div>
         </div>
     </section>
@@ -354,10 +423,9 @@
                     <h3>Bachelor of Science</h3>
                     <h4>Computer Science & Engineering Technology</h4>
                     <p class="school">The University of Toledo</p>
-                    <p class="date">Expected Dec 2025</p>
-                    <p class="gpa">GPA: 3.2/4.0</p>
+                    <p class="date">Graduated Dec 2025</p>
                     <ul class="awards">
-                        <li>Dean’s List (3 Semesters)</li>
+                        <li>Dean’s List (4 semesters)</li>
                         <li>UT International Excellence Award</li>
                     </ul>
                 </div>
@@ -385,7 +453,7 @@
             <div class="contact-section-wrapper">
                 <div class="contact-header">
                     <h2>Let's Work Together</h2>
-                    <p>I'm currently looking for new opportunities. Feel free to reach out via email or phone!</p>
+                    <p>I'm looking for IT support and data analyst roles and I'm open to relocation. Feel free to reach out!</p>
                 </div>
 
                 <div class="contact-options">
@@ -409,11 +477,12 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 Carolyn Maria Biju. All rights reserved.</p>
+                <p>&copy; 2026 Carolyn Maria Biju. All rights reserved.</p>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/carolynmariabiju" target="_blank"><i
                             class="fab fa-linkedin-in"></i></a>
                     <a href="mailto:carolynbiju24@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/caromel15" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
